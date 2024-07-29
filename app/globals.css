@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.dark {
+  @apply bg-[#171923] text-white;
+}
